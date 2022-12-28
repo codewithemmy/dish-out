@@ -27,6 +27,7 @@ app.use(cors());
 // routes
 app.use("/api/v1/auth", authRouter);
 
+//use not found and errorHandler middleware
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
 
