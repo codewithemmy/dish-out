@@ -1,5 +1,5 @@
 {
-  "name": "06-jobs-api",
+  "name": "dish_out",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -31,6 +31,6 @@
     "yamljs": "^0.3.0"
   },
   "engines": {
-    "node": "18.x"
+    "node": "14.x"
   }
 }
